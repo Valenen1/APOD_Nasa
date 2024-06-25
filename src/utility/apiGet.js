@@ -12,6 +12,5 @@ export default apiGet = async (parametros) => {
     console.error(error);
     console.log(Data);
   } finally {
-    //fin
   }
 };
