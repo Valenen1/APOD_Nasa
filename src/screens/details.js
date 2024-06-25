@@ -46,7 +46,6 @@ export default Detalle = ({ navigation }) => {
       </View>
       <ScrollView style={{ marginVertical: 10, height: "100%" }}>
         <View style={styles.descripcionContainer}>
-          {/* Usar el texto de la descripción traducido */}
           <Text style={styles.descripcion}>{translatedDesc}</Text>
         </View>
       </ScrollView>
