@@ -60,7 +60,7 @@ export default Home = ({ navigation }) => {
   return (
     <Layout>
       <Header texto="Descubre" />
-      {isLoading ? ( // Mostrar el loader mientras se carga
+      {isLoading ? ( 
         <ActivityIndicator
           style={{
             marginTop: 20,
